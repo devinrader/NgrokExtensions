@@ -2,12 +2,12 @@
 // See the LICENSE file in the project root for more information.
 // Copyright (c) 2016 David Prothero
 
-namespace NgrokExtensions
+namespace NgrokExtensions.Models
 {
-    public class WebAppConfig
+    public class WebApplication
     {
         public int PortNumber { get; set; }
         public string SubDomain { get; set; }
         public string PublicUrl { get; set; }
     }
-}
+}   

@@ -1,10 +1,12 @@
-﻿// This file is licensed to you under the MIT license.
-// See the LICENSE file in the project root for more information.
-// Copyright (c) 2016 David Prothero
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace NgrokExtensions
+namespace NgrokExtensions.Tunnels
 {
-    public class NgrokTunnelApiRequest
+    public class ApiRequest
     {
         public string name { get; set; }
         public string addr { get; set; }
